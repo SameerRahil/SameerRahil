@@ -114,37 +114,74 @@ Can we make the behavior more reliable?
 ## Toolchain
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,anaconda,cpp,c,fastapi,docker,git,github,html,css,js,react,nodejs,linux,vscode" />
+  <img height="42" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="PyTorch" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="Scikit-learn" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/pandas/150458" alt="Pandas" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/numpy/013243" alt="NumPy" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/cplusplus/00599C" alt="C++" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/c/A8B9CC" alt="C" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="x86 Assembly" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" />
 </p>
 
 <p align="center">
-  <img height="42" src="https://cdn.simpleicons.org/chatgpt/FFFFFF?viewbox=auto" alt="ChatGPT" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/claude/D97757?viewbox=auto" alt="Claude" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/googlegemini/4285F4?viewbox=auto" alt="Gemini" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/googlecolab/F9AB00?viewbox=auto" alt="Google Colab" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/kaggle/20BEFF?viewbox=auto" alt="Kaggle" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/huggingface/FFD21E?viewbox=auto" alt="Hugging Face" />
+  <img height="42" src="https://cdn.simpleicons.org/git/F05032" alt="Git" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/css/663399" alt="CSS" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/react/61DAFB" alt="React" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="Node.js" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="./assets/icons/vscode.png" alt="VS Code" />
 </p>
 
 <p align="center">
-  <img height="42" src="https://cdn.simpleicons.org/slack?viewbox=auto" alt="Slack" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/notion/FFFFFF?viewbox=auto" alt="Notion" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/obsidian/7C3AED?viewbox=auto" alt="Obsidian" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img height="42" src="https://cdn.simpleicons.org/githubcopilot/FFFFFF?viewbox=auto" alt="GitHub Copilot" />
+  <img height="44" src="./assets/icons/chatgpt.png" alt="ChatGPT" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="44" src="https://cdn.simpleicons.org/claude/D97757" alt="Claude" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="44" src="https://cdn.simpleicons.org/googlegemini/4285F4" alt="Gemini" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="44" src="https://cdn.simpleicons.org/googlecolab/F9AB00" alt="Google Colab" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="44" src="https://cdn.simpleicons.org/kaggle/20BEFF" alt="Kaggle" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="44" src="https://cdn.simpleicons.org/huggingface/FFD21E" alt="Hugging Face" />
+</p>
+
+<p align="center">
+  <img height="42" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Slack" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/notion/FFFFFF" alt="Notion" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/obsidian/7C3AED" alt="Obsidian" />
+  &nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/githubcopilot/FFFFFF" alt="GitHub Copilot" />
 </p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1900&pause=550&color=39D353&center=true&vCenter=true&width=900&lines=Python+%E2%80%A2+Scikit-learn+%E2%80%A2+Pandas+%E2%80%A2+PyTorch;C%2B%2B+%E2%80%A2+C+%E2%80%A2+x86+Assembly+%E2%80%A2+Linux;ChatGPT+%E2%80%A2+Claude+Code+%E2%80%A2+Gemini+%E2%80%A2+AI+Agents;Colab+%E2%80%A2+Kaggle+%E2%80%A2+Hugging+Face+%E2%80%A2+Experiments;FastAPI+%E2%80%A2+Docker+%E2%80%A2+Security+%E2%80%A2+Networks;Notion+%E2%80%A2+Obsidian+%E2%80%A2+Slack+%E2%80%A2+Clean+Workflows" alt="Sequential tool animation" />
 </p>
-
 ---
 
 ## Tiny System Status
