@@ -21,6 +21,7 @@ I build across **AI, software engineering, product systems, machine learning res
 builder first
 researcher with depth
 software engineer by practice
+teacher by heart :)
 ```
 
 ---
@@ -184,20 +185,11 @@ Can we make the behavior more reliable?
 </p>
 ---
 
-## Tiny System Status
+## Current System Status
 
-```txt
-sameer@github:~$ status
-
-current_mode       building + learning
-main_project       Loop. App
-research_thread    reliable ML and model behavior
-engineering_focus  useful products, clean systems, better workflows
-security_thread    XSS, CSRF, networks, and web security fundamentals
-ai_stack           ChatGPT, Claude Code, Gemini, AI agents, research acceleration
-favorite_question  "what is actually happening under the hood?"
-```
-
+<p align="center">
+  <img src="./assets/current-status.svg" alt="Current system status terminal" width="100%" />
+</p>
 ---
 
 ## Interests
