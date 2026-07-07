@@ -6,6 +6,9 @@
   <a href="https://www.linkedin.com/in/sameer-rahil/">
     <img src="https://img.shields.io/badge/LinkedIn-Sameer%20Rahil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sameerrahil07@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-sameerrahil07%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
   <img src="https://img.shields.io/badge/CS%20(AI)%20@%20LUMS-39D353?style=for-the-badge" />
 </p>
 
