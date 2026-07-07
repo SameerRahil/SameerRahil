@@ -1,0 +1,64 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #05080c; }
+    .window { fill: #05080c; stroke: #30363d; stroke-width: 2; }
+    .bar { fill: #0d1117; }
+    .prompt { fill: #39d353; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 28px; font-weight: 700; }
+    .cmd { fill: #58a6ff; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 28px; font-weight: 700; }
+    .label { fill: #7ee787; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 24px; }
+    .value { fill: #f0f6fc; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 24px; }
+    .comment { fill: #8b949e; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 19px; }
+    .cursor { fill: #39d353; animation: blink 1s steps(2, start) infinite; }
+    .glow { filter: drop-shadow(0 0 8px #39d353); }
+    .scan { fill: url(#scanGradient); opacity: .12; animation: scanMove 5s linear infinite; }
+
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      46%, 100% { opacity: 0; }
+    }
+
+    @keyframes scanMove {
+      from { transform: translateY(-390px); }
+      to { transform: translateY(390px); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="scanGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39d353" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect class="bg" width="1200" height="390" rx="16"/>
+  <rect class="window" x="26" y="26" width="1148" height="338" rx="16"/>
+  <rect class="bar" x="26" y="26" width="1148" height="54" rx="16"/>
+  <rect x="26" y="64" width="1148" height="18" fill="#0d1117"/>
+  <rect class="scan" x="26" y="26" width="1148" height="338" rx="16"/>
+
+  <circle cx="62" cy="53" r="8" fill="#ff5f56"/>
+  <circle cx="88" cy="53" r="8" fill="#ffbd2e"/>
+  <circle cx="114" cy="53" r="8" fill="#27c93f"/>
+
+  <text x="520" y="61" class="comment">current-status.cmd</text>
+
+  <text x="70" y="122" class="prompt glow">sameer@github:~$</text>
+  <text x="350" y="122" class="cmd">status</text>
+  <rect x="470" y="100" width="14" height="28" class="cursor"/>
+
+  <text x="90" y="175" class="label">current_mode</text>
+  <text x="345" y="175" class="value">building + learning + teaching</text>
+
+  <text x="90" y="215" class="label">research_thread</text>
+  <text x="345" y="215" class="value">reliable ML and model behavior</text>
+
+  <text x="90" y="255" class="label">engineering_focus</text>
+  <text x="345" y="255" class="value">useful products, clean systems, better workflows</text>
+
+  <text x="90" y="295" class="label">security_thread</text>
+  <text x="345" y="295" class="value">XSS, CSRF, networks, and web security fundamentals</text>
+
+  <text x="90" y="335" class="label">ai_stack</text>
+  <text x="345" y="335" class="value">ChatGPT, Claude Code, Gemini, AI agents, research acceleration</text>
+</svg>
