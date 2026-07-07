@@ -103,7 +103,7 @@ Can we make the behavior more reliable?
 [Agents]       ChatGPT  Claude Code  Gemini  AI Workflows  Prompting
 [Research]     Google Colab  Kaggle  Notebooks  Experiments  Model Evaluation
 [Backend]      FastAPI  Node.js  APIs  Auth  Databases
-[Systems]      C  C++  Linux  Docker  Networking
+[Systems]      C  C++  x86 Assembly  Linux  Docker  Networking
 [Security]     XSS  CSRF  Web Security  Network-Centric Computing
 [Frontend]     HTML  CSS  JavaScript  React
 [Workflow]     Git  GitHub  Slack  Notion  Obsidian  VS Code
@@ -118,24 +118,31 @@ Can we make the behavior more reliable?
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ChatGPT-111111?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" />
-  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img height="42" src="https://cdn.simpleicons.org/chatgpt/FFFFFF?viewbox=auto" alt="ChatGPT" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/claude/D97757?viewbox=auto" alt="Claude" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/googlegemini/4285F4?viewbox=auto" alt="Gemini" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/googlecolab/F9AB00?viewbox=auto" alt="Google Colab" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/kaggle/20BEFF?viewbox=auto" alt="Kaggle" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/huggingface/FFD21E?viewbox=auto" alt="Hugging Face" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-  <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" />
+  <img height="42" src="https://cdn.simpleicons.org/slack?viewbox=auto" alt="Slack" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/notion/FFFFFF?viewbox=auto" alt="Notion" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/obsidian/7C3AED?viewbox=auto" alt="Obsidian" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img height="42" src="https://cdn.simpleicons.org/githubcopilot/FFFFFF?viewbox=auto" alt="GitHub Copilot" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=500&color=39D353&center=true&vCenter=true&width=900&lines=Python+-%3E+Scikit-learn+-%3E+Pandas+-%3E+PyTorch;ChatGPT+-%3E+Claude+Code+-%3E+Gemini+-%3E+AI+Agents;Colab+-%3E+Kaggle+-%3E+Hugging+Face+-%3E+Experiments;FastAPI+-%3E+Docker+-%3E+Security+-%3E+Networks;Notion+-%3E+Obsidian+-%3E+Slack+-%3E+Clean+Workflows" alt="Sequential tool animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1900&pause=550&color=39D353&center=true&vCenter=true&width=900&lines=Python+%E2%80%A2+Scikit-learn+%E2%80%A2+Pandas+%E2%80%A2+PyTorch;C%2B%2B+%E2%80%A2+C+%E2%80%A2+x86+Assembly+%E2%80%A2+Linux;ChatGPT+%E2%80%A2+Claude+Code+%E2%80%A2+Gemini+%E2%80%A2+AI+Agents;Colab+%E2%80%A2+Kaggle+%E2%80%A2+Hugging+Face+%E2%80%A2+Experiments;FastAPI+%E2%80%A2+Docker+%E2%80%A2+Security+%E2%80%A2+Networks;Notion+%E2%80%A2+Obsidian+%E2%80%A2+Slack+%E2%80%A2+Clean+Workflows" alt="Sequential tool animation" />
 </p>
 
 ---
