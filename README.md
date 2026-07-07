@@ -183,7 +183,7 @@ Can we make the behavior more reliable?
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1900&pause=550&color=39D353&center=true&vCenter=true&width=900&lines=Python+%E2%80%A2+Scikit-learn+%E2%80%A2+Pandas+%E2%80%A2+PyTorch;C%2B%2B+%E2%80%A2+C+%E2%80%A2+x86+Assembly+%E2%80%A2+Linux;ChatGPT+%E2%80%A2+Claude+Code+%E2%80%A2+Gemini+%E2%80%A2+AI+Agents;Colab+%E2%80%A2+Kaggle+%E2%80%A2+Hugging+Face+%E2%80%A2+Experiments;FastAPI+%E2%80%A2+Docker+%E2%80%A2+Security+%E2%80%A2+Networks;Notion+%E2%80%A2+Obsidian+%E2%80%A2+Slack+%E2%80%A2+Clean+Workflows" alt="Sequential tool animation" />
 </p>
----
+
 
 ## Current System Status
 
@@ -198,7 +198,6 @@ Can we make the behavior more reliable?
   <img src="./assets/interests-retro.svg" alt="Animated retro interests display" width="100%" />
 </p>
 
----
 
 ## Connect
 
