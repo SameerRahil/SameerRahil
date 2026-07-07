@@ -64,15 +64,18 @@ It grew out of the **Glide** campus event discovery and management platform, bui
 
 ## Machine Learning and Research
 
-I have worked on ML-heavy coursework and research through **Advanced Topics in Machine Learning**, including:
+My ML work spans **robust vision models, domain shift, model compression, federated learning, LLM alignment, mechanistic interpretability, and OOD/open-set recognition**.
 
-- Domain adaptation
-- OOD generalization
-- Discriminative and generative models
-- Contrastive learning
-- Federated learning
-- Model evaluation under distribution shift
-- Mechanistic interpretability and open-set recognition
+I have explored:
+
+- Inductive biases in CNNs, ViTs, VAEs, GANs, and CLIP
+- Domain adaptation and domain generalization under distribution shift
+- Model compression through pruning, quantization, and knowledge distillation
+- Federated learning under non-IID client heterogeneity
+- LLM decoding, alignment, reward hacking, verbosity bias, and preference optimization
+- Sparse autoencoders, grokking, Fourier circuits, and mechanistic interpretability
+- OOD scoring, harmful feature analysis, and model behavior under shift
+
 
 A major research thread I have explored is understanding why models fail when the input distribution changes. That includes harmful versus useful feature analysis, OOD scoring, SALVE-style interpretability, and visual evidence such as Grad-CAM style explanations.
 
@@ -91,12 +94,13 @@ Can we make the behavior more reliable?
 
 | Repository | Focus |
 |---|---|
-| [Advanced-Topics-in-Machine-Learning-PA1](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA1) | Advanced ML assignment work |
-| [Advanced-Topics-in-Machine-Learning-PA2](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA2) | ML experimentation and evaluation |
-| [Advanced-Topics-in-Machine-Learning-PA3](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA3) | Advanced model behavior and learning setup |
-| [Advanced-Topics-in-Machine-Learning-PA4](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA4) | Federated learning and heterogeneity |
-| [Advanced-Topics-in-Machine-Learning-PA5](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA5) | Mechanistic interpretability and LLMs |
-| [FedSCAM](https://github.com/SameerRahil/FedSCAM) | Federated learning and ML research experimentation |
+| [Advanced-Topics-in-Machine-Learning-PA1](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA1) | CNN vs ViT inductive bias, VAE vs GAN behavior, CLIP bias, and OOD robustness |
+| [Advanced-Topics-in-Machine-Learning-PA2](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA2) | Domain adaptation and generalization with UDA, DANN, IRM, Group DRO, SAM, and CLIP prompts |
+| [Advanced-Topics-in-Machine-Learning-PA3](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA3) | Model compression through pruning, quantization, knowledge distillation, Grad-CAM, and latency trade-offs |
+| [Advanced-Topics-in-Machine-Learning-PA4](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA4) | Federated learning with FedSGD, FedAvg, non-IID heterogeneity, FedProx, SCAFFOLD, FedGH, and FedSAM |
+| [Advanced-Topics-in-Machine-Learning-PA5](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA5) | LLM decoding, DPO/PPO/GRPO alignment, reward hacking, verbosity bias, and Universal SAEs |
+| [Advanced-Topics-in-Machine-Learning-PA6](https://github.com/SameerRahil/Advanced-Topics-in-Machine-Learning-PA6) | LLM alignment and grokking reverse engineering with TransformerLens, modular addition, and Fourier circuits |
+| [FedSCAM](https://github.com/SameerRahil/FedSCAM) | Federated learning research experimentation under statistical heterogeneity |
 
 ---
 
