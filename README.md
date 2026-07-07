@@ -6,9 +6,6 @@
   <a href="https://www.linkedin.com/in/sameer-rahil/">
     <img src="https://img.shields.io/badge/LinkedIn-Sameer%20Rahil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/SameerRahil">
-    <img src="https://img.shields.io/badge/GitHub-SameerRahil-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
   <img src="https://img.shields.io/badge/CS%20(AI)%20@%20LUMS-39D353?style=for-the-badge" />
 </p>
 
@@ -54,7 +51,7 @@ It grew out of the **Glide** campus event discovery and management platform, bui
 |---|---|
 | Product Engineering | Build useful apps with clear flows, real users, and maintainable structure |
 | Machine Learning | Work on model evaluation, OOD detection, interpretability, and applied ML |
-| AI Agents and Tools | Use ChatGPT, Claude Code, and AI workflows for faster research and development |
+| AI Agents and Tools | Use ChatGPT, Claude Code, Gemini, Colab, Kaggle, and AI workflows for faster research and development |
 | Software Engineering | Plan, implement, document, and improve systems through proper engineering practice |
 | Security and Networks | Explore network-centric computing, XSS, CSRF, web security, and protocol-level thinking |
 | Backend Systems | Build APIs and backend workflows using tools like FastAPI and Docker |
@@ -99,29 +96,17 @@ Can we make the behavior more reliable?
 
 ---
 
-## Software Engineering and Systems
-
-Alongside ML, I have worked on software engineering projects and labs involving planning, implementation, documentation, and system design.
-
-| Repository | Focus |
-|---|---|
-| [CS360S26glide/glide](https://github.com/CS360S26glide/glide) | Loop. App, campus event discovery and management |
-| [SE-Lab3-ListyCity3](https://github.com/SameerRahil/SE-Lab3-ListyCity3) | Software engineering and implementation practice |
-| [Software-Engineering-Lab-1](https://github.com/SameerRahil/Software-Engineering-Lab-1) | Software engineering fundamentals |
-| [DecodeLabs-Internship](https://github.com/SameerRahil/DecodeLabs-Internship) | Applied development and internship project work |
-
----
-
 ## Retro Skill Board
 
 ```txt
-[AI/ML]        Python  PyTorch  Scikit-learn  Pandas  NumPy
-[Agents]       ChatGPT  Claude Code  AI Workflows  Prompting  Research Acceleration
+[AI/ML]        Python  PyTorch  Scikit-learn  Pandas  NumPy  Hugging Face
+[Agents]       ChatGPT  Claude Code  Gemini  AI Workflows  Prompting
+[Research]     Google Colab  Kaggle  Notebooks  Experiments  Model Evaluation
 [Backend]      FastAPI  Node.js  APIs  Auth  Databases
 [Systems]      C  C++  Linux  Docker  Networking
 [Security]     XSS  CSRF  Web Security  Network-Centric Computing
 [Frontend]     HTML  CSS  JavaScript  React
-[Workflow]     Git  GitHub  VS Code  Documentation  Debugging
+[Workflow]     Git  GitHub  Slack  Notion  Obsidian  VS Code
 ```
 
 ---
@@ -133,7 +118,24 @@ Alongside ML, I have worked on software engineering projects and labs involving 
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=500&color=39D353&center=true&vCenter=true&width=900&lines=Python+%E2%86%92+Scikit-learn+%E2%86%92+Pandas+%E2%86%92+PyTorch;C%2B%2B+%E2%86%92+C+%E2%86%92+Linux+%E2%86%92+Docker;FastAPI+%E2%86%92+APIs+%E2%86%92+Security+%E2%86%92+Networks;ChatGPT+%E2%86%92+Claude+Code+%E2%86%92+AI+Agents+%E2%86%92+Better+Workflows" alt="Sequential tool animation" />
+  <img src="https://img.shields.io/badge/ChatGPT-111111?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black" />
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
+  <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=1800&pause=500&color=39D353&center=true&vCenter=true&width=900&lines=Python+-%3E+Scikit-learn+-%3E+Pandas+-%3E+PyTorch;ChatGPT+-%3E+Claude+Code+-%3E+Gemini+-%3E+AI+Agents;Colab+-%3E+Kaggle+-%3E+Hugging+Face+-%3E+Experiments;FastAPI+-%3E+Docker+-%3E+Security+-%3E+Networks;Notion+-%3E+Obsidian+-%3E+Slack+-%3E+Clean+Workflows" alt="Sequential tool animation" />
 </p>
 
 ---
@@ -148,17 +150,16 @@ main_project       Loop. App
 research_thread    reliable ML and model behavior
 engineering_focus  useful products, clean systems, better workflows
 security_thread    XSS, CSRF, networks, and web security fundamentals
-ai_stack           ChatGPT, Claude Code, AI agents, research acceleration
+ai_stack           ChatGPT, Claude Code, Gemini, AI agents, research acceleration
 favorite_question  "what is actually happening under the hood?"
 ```
 
 ---
 
-## GitHub Stats
+## Interests
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SameerRahil&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SameerRahil&layout=compact&theme=github_dark&hide_border=true" />
+  <img src="./assets/interests-retro.svg" alt="Animated retro interests display" width="100%" />
 </p>
 
 ---
