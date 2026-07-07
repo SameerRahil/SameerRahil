@@ -1,0 +1,116 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; }
+    .panel { fill: #0d1117; stroke: #238636; stroke-width: 2; }
+    .grid { fill: #123524; rx: 5; }
+
+    .g1 { animation: pulse 2.8s infinite; }
+    .g2 { animation: pulse 2.8s infinite .15s; }
+    .g3 { animation: pulse 2.8s infinite .3s; }
+    .g4 { animation: pulse 2.8s infinite .45s; }
+    .g5 { animation: pulse 2.8s infinite .6s; }
+    .g6 { animation: pulse 2.8s infinite .75s; }
+    .g7 { animation: pulse 2.8s infinite .9s; }
+    .g8 { animation: pulse 2.8s infinite 1.05s; }
+
+    .terminal {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      fill: #39d353;
+    }
+
+    .muted {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      fill: #7ee787;
+      opacity: .95;
+    }
+
+    .blue {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      fill: #58a6ff;
+      opacity: .96;
+    }
+
+    .cursor {
+      animation: blink 1s steps(2, start) infinite;
+    }
+
+    .scan {
+      fill: url(#scanGradient);
+      opacity: .18;
+      animation: scanMove 4s linear infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { fill: #123524; filter: none; }
+      45% { fill: #238636; filter: drop-shadow(0 0 8px #39d353); }
+      60% { fill: #39d353; filter: drop-shadow(0 0 12px #39d353); }
+    }
+
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      46%, 100% { opacity: 0; }
+    }
+
+    @keyframes scanMove {
+      from { transform: translateY(-360px); }
+      to { transform: translateY(360px); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="scanGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39d353" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect class="bg" width="1200" height="360"/>
+  <rect class="panel" x="24" y="24" width="1152" height="312" rx="18"/>
+  <rect class="scan" x="24" y="24" width="1152" height="100"/>
+
+  <text x="72" y="86" class="blue" font-size="24">$ whoami</text>
+  <text x="72" y="150" class="terminal" font-size="64" font-weight="800">Sameer Rahil<tspan class="cursor">_</tspan></text>
+
+  <g transform="translate(830,54)">
+    <rect class="grid g1" x="0" y="0" width="24" height="24"/>
+    <rect class="grid g2" x="34" y="0" width="24" height="24"/>
+    <rect class="grid g3" x="68" y="0" width="24" height="24"/>
+    <rect class="grid g4" x="102" y="0" width="24" height="24"/>
+    <rect class="grid g5" x="136" y="0" width="24" height="24"/>
+    <rect class="grid g6" x="170" y="0" width="24" height="24"/>
+    <rect class="grid g7" x="204" y="0" width="24" height="24"/>
+    <rect class="grid g8" x="238" y="0" width="24" height="24"/>
+
+    <rect class="grid g4" x="0" y="34" width="24" height="24"/>
+    <rect class="grid g1" x="34" y="34" width="24" height="24"/>
+    <rect class="grid g6" x="68" y="34" width="24" height="24"/>
+    <rect class="grid g2" x="102" y="34" width="24" height="24"/>
+    <rect class="grid g8" x="136" y="34" width="24" height="24"/>
+    <rect class="grid g3" x="170" y="34" width="24" height="24"/>
+    <rect class="grid g5" x="204" y="34" width="24" height="24"/>
+    <rect class="grid g7" x="238" y="34" width="24" height="24"/>
+
+    <rect class="grid g8" x="0" y="68" width="24" height="24"/>
+    <rect class="grid g7" x="34" y="68" width="24" height="24"/>
+    <rect class="grid g2" x="68" y="68" width="24" height="24"/>
+    <rect class="grid g5" x="102" y="68" width="24" height="24"/>
+    <rect class="grid g1" x="136" y="68" width="24" height="24"/>
+    <rect class="grid g4" x="170" y="68" width="24" height="24"/>
+    <rect class="grid g6" x="204" y="68" width="24" height="24"/>
+    <rect class="grid g3" x="238" y="68" width="24" height="24"/>
+
+    <rect class="grid g2" x="0" y="102" width="24" height="24"/>
+    <rect class="grid g5" x="34" y="102" width="24" height="24"/>
+    <rect class="grid g8" x="68" y="102" width="24" height="24"/>
+    <rect class="grid g1" x="102" y="102" width="24" height="24"/>
+    <rect class="grid g3" x="136" y="102" width="24" height="24"/>
+    <rect class="grid g7" x="170" y="102" width="24" height="24"/>
+    <rect class="grid g4" x="204" y="102" width="24" height="24"/>
+    <rect class="grid g6" x="238" y="102" width="24" height="24"/>
+  </g>
+
+  <text x="72" y="216" class="muted" font-size="23">CS (AI) @ LUMS | ML Research | AI Agents | Builder | Software Engineering</text>
+  <text x="72" y="252" class="blue" font-size="22">Advanced ML • Loop. App • AI Tools • FastAPI • Security • Mechanistic Interpretability</text>
+
+</svg>
