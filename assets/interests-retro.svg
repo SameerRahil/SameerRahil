@@ -1,38 +1,39 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill: #0d1117; }
-    .panel { fill: #0d1117; stroke: #238636; stroke-width: 2; }
-    .title, .label, .sub {
+    .panel { fill: #05080c; stroke: #238636; stroke-width: 2; }
+    .topbar { fill: #0d1117; opacity: .92; }
+    .title, .label, .sub, .meta {
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
     }
-    .title { fill: #39d353; font-size: 34px; font-weight: 800; }
-    .label { fill: #f0f6fc; font-size: 30px; font-weight: 800; }
-    .sub { fill: #58a6ff; font-size: 19px; }
-    .block { fill: #238636; rx: 4; filter: drop-shadow(0 0 7px #39d353); }
-    .flame { fill: #ff7b00; filter: drop-shadow(0 0 8px #ff7b00); }
-    .trail { stroke: #39d353; stroke-width: 3; opacity: .5; stroke-linecap: round; }
-    .screen { opacity: 0; animation: show 18s infinite; }
+    .title { fill: #39d353; font-size: 34px; font-weight: 900; filter: drop-shadow(0 0 7px #39d353); }
+    .label { fill: #f0f6fc; font-size: 39px; font-weight: 900; }
+    .sub { fill: #58a6ff; font-size: 20px; }
+    .meta { fill: #7ee787; font-size: 16px; opacity: .9; }
+    .orange { fill: #D97757; }
+    .screen { opacity: 0; animation: show 30s infinite; }
     .s1 { animation-delay: 0s; }
-    .s2 { animation-delay: 3s; }
-    .s3 { animation-delay: 6s; }
-    .s4 { animation-delay: 9s; }
-    .s5 { animation-delay: 12s; }
-    .s6 { animation-delay: 15s; }
-    .rocket { animation: lift 3s ease-in-out infinite; }
-    .scan { fill: url(#scanGradient); opacity: .16; animation: scanMove 4s linear infinite; }
+    .s2 { animation-delay: 5s; }
+    .s3 { animation-delay: 10s; }
+    .s4 { animation-delay: 15s; }
+    .s5 { animation-delay: 20s; }
+    .s6 { animation-delay: 25s; }
+    .scan { fill: url(#scanGradient); opacity: .13; animation: scanMove 5s linear infinite; }
+    .rocket-block { fill: #238636; filter: drop-shadow(0 0 7px #39d353); }
+    .flame1 { fill: #ff7b00; filter: drop-shadow(0 0 8px #ff7b00); }
+    .flame2 { fill: #ffd33d; opacity: .9; }
+    .trail { stroke: #39d353; stroke-width: 2; opacity: .28; stroke-linecap: round; }
+    .trail2 { stroke: #58a6ff; stroke-width: 1.5; opacity: .18; stroke-linecap: round; }
 
     @keyframes show {
-      0%, 13% { opacity: 0; transform: translateY(18px); }
-      16%, 30% { opacity: 1; transform: translateY(0); }
-      33%, 100% { opacity: 0; transform: translateY(-18px); }
+      0%, 10% { opacity: 0; transform: translateY(18px); }
+      13%, 27% { opacity: 1; transform: translateY(0); }
+      30%, 100% { opacity: 0; transform: translateY(-18px); }
     }
-    @keyframes lift {
-      0%, 100% { transform: translateY(16px); }
-      50% { transform: translateY(-10px); }
-    }
+
     @keyframes scanMove {
-      from { transform: translateY(-360px); }
-      to { transform: translateY(360px); }
+      from { transform: translateY(-430px); }
+      to { transform: translateY(430px); }
     }
   </style>
 
@@ -44,74 +45,120 @@
     </linearGradient>
   </defs>
 
-  <rect class="bg" width="1200" height="360"/>
-  <rect class="panel" x="24" y="24" width="1152" height="312" rx="18"/>
-  <rect class="scan" x="24" y="24" width="1152" height="100"/>
+  <rect class="bg" width="1200" height="430"/>
+  <rect class="panel" x="34" y="34" width="1132" height="362" rx="20"/>
+  <rect class="topbar" x="34" y="34" width="1132" height="58" rx="20"/>
+  <rect x="34" y="74" width="1132" height="22" fill="#0d1117"/>
+  <rect class="scan" x="34" y="34" width="1132" height="362" rx="20"/>
 
-  <text x="70" y="82" class="title">interests.exe</text>
-  <text x="70" y="116" class="sub">loading the human side of the profile</text>
+  <circle cx="72" cy="63" r="8" fill="#ff5f56"/>
+  <circle cx="98" cy="63" r="8" fill="#ffbd2e"/>
+  <circle cx="124" cy="63" r="8" fill="#27c93f"/>
 
-  <g class="rocket" transform="translate(870,190)">
-    <line class="trail" x1="18" y1="96" x2="18" y2="150"/>
-    <line class="trail" x1="50" y1="88" x2="50" y2="145"/>
-    <line class="trail" x1="82" y1="98" x2="82" y2="155"/>
-    <rect class="block" x="0" y="0" width="24" height="24"/>
-    <rect class="block" x="32" y="-18" width="24" height="24"/>
-    <rect class="block" x="64" y="0" width="24" height="24"/>
-    <rect class="block" x="32" y="18" width="24" height="24"/>
-    <path class="flame" d="M31 54 C38 70 50 70 57 54 C49 60 39 60 31 54Z"/>
+  <text x="72" y="134" class="title">interests.exe</text>
+  <text x="72" y="166" class="sub">loading the human side of the profile</text>
+  <text x="852" y="66" class="meta">personal-stack.runtime</text>
+
+  <g transform="translate(975,390)">
+    <animateTransform attributeName="transform" type="translate" values="975 390; 975 -70" dur="6s" repeatCount="indefinite"/>
+    <line class="trail" x1="10" y1="30" x2="10" y2="78"/>
+    <line class="trail2" x1="4" y1="36" x2="4" y2="70"/>
+    <line class="trail2" x1="16" y1="36" x2="16" y2="70"/>
+    <rect class="rocket-block" x="0" y="0" width="20" height="20" rx="4"/>
+    <path class="flame1" d="M5 22 C8 36 12 36 15 22 C12 26 8 26 5 22Z"/>
+    <path class="flame2" d="M8 22 C10 31 12 31 13 22 C11 25 9 25 8 22Z"/>
+  </g>
+
+  <g transform="translate(1045,430)">
+    <animateTransform attributeName="transform" type="translate" values="1045 430; 1045 -50" dur="7.5s" begin="1s" repeatCount="indefinite"/>
+    <line class="trail" x1="10" y1="30" x2="10" y2="88"/>
+    <line class="trail2" x1="2" y1="42" x2="2" y2="82"/>
+    <line class="trail2" x1="18" y1="42" x2="18" y2="82"/>
+    <rect class="rocket-block" x="0" y="0" width="20" height="20" rx="4"/>
+    <path class="flame1" d="M5 22 C8 36 12 36 15 22 C12 26 8 26 5 22Z"/>
+    <path class="flame2" d="M8 22 C10 31 12 31 13 22 C11 25 9 25 8 22Z"/>
+  </g>
+
+  <g transform="translate(910,450)">
+    <animateTransform attributeName="transform" type="translate" values="910 450; 910 -60" dur="8.5s" begin="2.3s" repeatCount="indefinite"/>
+    <line class="trail" x1="10" y1="30" x2="10" y2="82"/>
+    <line class="trail2" x1="4" y1="42" x2="4" y2="76"/>
+    <line class="trail2" x1="16" y1="42" x2="16" y2="76"/>
+    <rect class="rocket-block" x="0" y="0" width="20" height="20" rx="4"/>
+    <path class="flame1" d="M5 22 C8 36 12 36 15 22 C12 26 8 26 5 22Z"/>
+    <path class="flame2" d="M8 22 C10 31 12 31 13 22 C11 25 9 25 8 22Z"/>
+  </g>
+
+  <g transform="translate(1110,410)">
+    <animateTransform attributeName="transform" type="translate" values="1110 410; 1110 -80" dur="6.8s" begin=".6s" repeatCount="indefinite"/>
+    <line class="trail" x1="10" y1="30" x2="10" y2="78"/>
+    <line class="trail2" x1="4" y1="40" x2="4" y2="74"/>
+    <line class="trail2" x1="16" y1="40" x2="16" y2="74"/>
+    <rect class="rocket-block" x="0" y="0" width="20" height="20" rx="4"/>
+    <path class="flame1" d="M5 22 C8 36 12 36 15 22 C12 26 8 26 5 22Z"/>
+    <path class="flame2" d="M8 22 C10 31 12 31 13 22 C11 25 9 25 8 22Z"/>
   </g>
 
   <g class="screen s1">
-    <text x="120" y="205" class="label">Spotify</text>
-    <text x="120" y="247" class="sub">music for focus, late nights, and building mode</text>
-    <circle cx="76" cy="197" r="28" fill="#1DB954"/>
-    <path d="M60 188 C73 182 88 184 97 190" stroke="#0d1117" stroke-width="5" stroke-linecap="round"/>
-    <path d="M62 199 C73 194 86 196 94 201" stroke="#0d1117" stroke-width="4" stroke-linecap="round"/>
-    <path d="M65 209 C75 206 84 207 91 211" stroke="#0d1117" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="286" cy="258" r="50" fill="#1DB954"/>
+    <path d="M258 240 C282 231 312 234 330 246" stroke="#05080c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M262 258 C284 250 308 253 324 263" stroke="#05080c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M268 275 C286 270 304 272 317 280" stroke="#05080c" stroke-width="5" stroke-linecap="round"/>
+    <text x="370" y="250" class="label">Spotify</text>
+    <text x="370" y="286" class="sub">music for focus, late nights, and building mode</text>
   </g>
 
   <g class="screen s2">
-    <text x="120" y="205" class="label">Cinema</text>
-    <text x="120" y="247" class="sub">stories, atmosphere, characters, and the occasional masterpiece</text>
-    <rect x="50" y="170" width="56" height="42" rx="6" fill="#58a6ff"/>
-    <circle cx="64" cy="184" r="5" fill="#0d1117"/>
-    <circle cx="82" cy="184" r="5" fill="#0d1117"/>
-    <circle cx="64" cy="199" r="5" fill="#0d1117"/>
-    <circle cx="82" cy="199" r="5" fill="#0d1117"/>
-    <path d="M106 180 L134 164 V220 L106 204Z" fill="#58a6ff"/>
+    <rect x="222" y="224" width="78" height="62" rx="10" fill="#58a6ff"/>
+    <circle cx="240" cy="243" r="6" fill="#05080c"/>
+    <circle cx="265" cy="243" r="6" fill="#05080c"/>
+    <circle cx="240" cy="268" r="6" fill="#05080c"/>
+    <circle cx="265" cy="268" r="6" fill="#05080c"/>
+    <path d="M300 239 L350 212 V300 L300 273Z" fill="#58a6ff"/>
+    <text x="390" y="238" class="label">Cinema</text>
+    <text x="390" y="274" class="sub">love classics like The Shawshank Redemption,</text>
+    <text x="390" y="304" class="sub">Dead Poets Society, Interstellar, and the ones that stay with you</text>
   </g>
 
   <g class="screen s3">
-    <text x="120" y="205" class="label">Claude Code</text>
-    <text x="120" y="247" class="sub">I just love Claude Code</text>
-    <rect x="50" y="168" width="58" height="58" rx="14" fill="#D97757"/>
-    <text x="66" y="207" font-family="ui-monospace, monospace" font-size="30" font-weight="900" fill="#0d1117">C</text>
+    <g transform="translate(240,214) scale(.72)">
+      <path class="orange" d="M46 2 L57 6 L64 18 L60 34 L74 18 L90 18 L101 28 L98 42 L79 62 L104 57 L116 66 L118 80 L104 91 L75 93 L95 111 L98 126 L88 136 L73 134 L53 106 L50 139 L38 149 L24 144 L20 128 L29 96 L2 112 L-12 110 L-20 97 L-14 82 L17 62 L-18 57 L-28 47 L-25 32 L-12 24 L25 28 L7 0 L9 -15 L22 -22 L36 -17 L46 2Z"/>
+      <circle cx="45" cy="65" r="12" fill="#05080c" opacity=".08"/>
+    </g>
+    <text x="390" y="250" class="label">Claude Code</text>
+    <text x="390" y="286" class="sub">I just love Claude Code (lol)</text>
   </g>
 
   <g class="screen s4">
-    <text x="120" y="205" class="label">Gaming</text>
-    <text x="120" y="247" class="sub">Uncharted 4</text>
-    <rect x="48" y="174" width="78" height="44" rx="18" fill="#39d353"/>
-    <circle cx="70" cy="196" r="5" fill="#0d1117"/>
-    <circle cx="104" cy="196" r="5" fill="#0d1117"/>
-    <rect x="83" y="190" width="10" height="4" fill="#0d1117"/>
+    <rect x="232" y="230" width="104" height="58" rx="24" fill="#39d353"/>
+    <circle cx="262" cy="260" r="7" fill="#05080c"/>
+    <circle cx="308" cy="260" r="7" fill="#05080c"/>
+    <rect x="278" y="254" width="14" height="5" rx="2" fill="#05080c"/>
+    <path d="M232 258 C208 244 208 274 232 260" stroke="#39d353" stroke-width="12" stroke-linecap="round"/>
+    <path d="M336 258 C360 244 360 274 336 260" stroke="#39d353" stroke-width="12" stroke-linecap="round"/>
+    <text x="390" y="244" class="label">Uncharted 4</text>
+    <text x="390" y="282" class="sub">favourite game of all time</text>
   </g>
 
   <g class="screen s5">
-    <text x="120" y="205" class="label">Games I Keep Coming Back To</text>
-    <text x="120" y="247" class="sub">Red Dead Redemption 2 | Counter-Strike 2 | Ghost of Tsushima</text>
-    <rect x="48" y="174" width="78" height="44" rx="18" fill="#39d353"/>
-    <circle cx="70" cy="196" r="5" fill="#0d1117"/>
-    <circle cx="104" cy="196" r="5" fill="#0d1117"/>
-    <rect x="83" y="190" width="10" height="4" fill="#0d1117"/>
+    <rect x="212" y="230" width="104" height="58" rx="24" fill="#39d353"/>
+    <circle cx="242" cy="260" r="7" fill="#05080c"/>
+    <circle cx="288" cy="260" r="7" fill="#05080c"/>
+    <rect x="258" y="254" width="14" height="5" rx="2" fill="#05080c"/>
+    <path d="M212 258 C188 244 188 274 212 260" stroke="#39d353" stroke-width="12" stroke-linecap="round"/>
+    <path d="M316 258 C340 244 340 274 316 260" stroke="#39d353" stroke-width="12" stroke-linecap="round"/>
+    <text x="370" y="236" class="label">Games I Also Love</text>
+    <text x="370" y="274" class="sub">Red Dead Redemption 2 | Counter-Strike 2</text>
+    <text x="370" y="304" class="sub">Ghost of Tsushima</text>
   </g>
 
   <g class="screen s6">
-    <text x="120" y="205" class="label">Teaching</text>
-    <text x="120" y="247" class="sub">turning hard ideas into clear explanations</text>
-    <rect x="52" y="164" width="72" height="52" rx="6" fill="#58a6ff"/>
-    <path d="M62 178 H114 M62 192 H104 M62 206 H96" stroke="#0d1117" stroke-width="5" stroke-linecap="round"/>
-    <rect x="74" y="216" width="28" height="8" fill="#58a6ff"/>
+    <rect x="235" y="220" width="92" height="70" rx="10" fill="#58a6ff"/>
+    <rect x="262" y="290" width="38" height="10" fill="#58a6ff"/>
+    <path d="M252 240 H312 M252 257 H304 M252 274 H293" stroke="#05080c" stroke-width="7" stroke-linecap="round"/>
+    <text x="390" y="250" class="label">Teaching</text>
+    <text x="390" y="286" class="sub">turning hard ideas into clear explanations</text>
   </g>
+
+  <text x="72" y="368" class="meta">now playing: one interest at a time</text>
 </svg>
