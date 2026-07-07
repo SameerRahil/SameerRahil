@@ -190,7 +190,7 @@ Can we make the behavior more reliable?
 <p align="center">
   <img src="./assets/current-status.svg" alt="Current system status terminal" width="100%" />
 </p>
----
+
 
 ## Interests
 
