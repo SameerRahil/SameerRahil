@@ -97,20 +97,7 @@ Can we make the behavior more reliable?
 
 ---
 
-## Retro Skill Board
 
-```txt
-[AI/ML]        Python  PyTorch  Scikit-learn  Pandas  NumPy  Hugging Face
-[Agents]       ChatGPT  Claude Code  Gemini  AI Workflows  Prompting
-[Research]     Google Colab  Kaggle  Notebooks  Experiments  Model Evaluation
-[Backend]      FastAPI  Node.js  APIs  Auth  Databases
-[Systems]      C  C++  x86 Assembly  Linux  Docker  Networking
-[Security]     XSS  CSRF  Web Security  Network-Centric Computing
-[Frontend]     HTML  CSS  JavaScript  React
-[Workflow]     Git  GitHub  Slack  Notion  Obsidian  VS Code
-```
-
----
 
 ## Toolchain
 
